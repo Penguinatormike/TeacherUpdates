@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">Teacher Updates</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="db_url"></string>
+    <string name="action_settings">Settings</string>
+    <string name="dialog_enter_password">Enter Password(provided by instructor)</string>
+    <string name="fire">Add</string>
+    <string name="cancel">Cancel</string>
+    <string name="change">Change Name</string>
+    <string name="delete">Delete Course</string>
+    <string name="add">Add Course</string>
+    <string name="clear_registered_attendance">Clear Registered Attendance</string>
+    <string name="title_activity_first_launch">Welcome to Teacher Updates</string>
+    <string name="introduction">Teacher Updates is an attendance tracking app for teachers and students to keep track of attendance easily, to begin please enter some information about yourself</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>
