@@ -428,10 +428,10 @@ public class MainActivity extends AppCompatActivity
         builder += "<b>CRN:</b> " + registeredCourses.get(position).getCrn() + "<br>";
         builder += "<b>Teacher</b>: " + registeredCourses.get(position).getTeacher()+ "<br>";
 
-        //debugging purposes, remove later
-        if(address != null) {
-            //builder += "Your Location: " + address;
-        }
+//        //debugging purposes, remove later
+//        if(address != null) {
+//            //builder += "Your Location: " + address;
+//        }
 
         et1.setText(Html.fromHtml(builder));
         et1.setVisibility(View.VISIBLE);
@@ -505,6 +505,7 @@ public class MainActivity extends AppCompatActivity
         transaction.commit();
     }
 
+    //hide edit text as well
     public void hideFragment(){
 
         View frag = findViewById(R.id.fragment);
