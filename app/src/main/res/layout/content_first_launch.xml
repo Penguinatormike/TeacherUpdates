@@ -108,7 +108,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Sign up"
-            android:onClick="sign_up"
+            android:onClick="sign_up_botton"
             android:id="@+id/signUpButton"
             android:layout_centerVertical="true"
             android:layout_centerHorizontal="true" />

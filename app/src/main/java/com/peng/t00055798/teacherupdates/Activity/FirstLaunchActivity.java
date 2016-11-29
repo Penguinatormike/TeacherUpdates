@@ -93,6 +93,10 @@ public class FirstLaunchActivity extends AppCompatActivity {
         prefs = getSharedPreferences("com.peng.t00055798.teacherupdates", MODE_PRIVATE);
 
     }
+    public void sign_up_botton(View v){
+        sign_up();
+
+    }
     public void sign_up(){
 
         if(firstnameET.getText().toString().matches("") ||
